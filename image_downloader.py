@@ -34,6 +34,8 @@ except requests.exceptions.MissingSchema:
 except requests.ConnectionError:
     print(f"\n[ {red}ERROR{reset} ] Connection Error, Please check your internet connection and try again.")
 
+
+
 if img_url == '':
     print(f"\n[ {red}ERROR{reset} ] Image url cannot be empty.")
     exit()
