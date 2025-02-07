@@ -240,3 +240,5 @@ finally:
     print(
         f"\n[ {yellow}help{reset} ] If the image did not download, make sure everything is right then try again. You can read the help message above."
     )
+    
+    print()
